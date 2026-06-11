@@ -190,6 +190,16 @@ sidebar-productivity/
 
 This extension is open source and available for personal and commercial use.
 
+## Author
+
+Created and developed by [cehojac](https://github.com/cehojac).
+
+## Support the Project
+
+If you find this extension useful, consider supporting its development:
+
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets/buttons-orange/bmc-logo.svg)](https://www.buymeacoffee.com/PfYvexH)
+
 ## Support
 
 If you encounter any issues or have suggestions, please report the issue in the project repository.
