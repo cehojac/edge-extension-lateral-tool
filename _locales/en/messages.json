@@ -394,5 +394,9 @@
   "errorCopying": {
     "message": "Error copying to clipboard",
     "description": "Error message when copying fails"
+  },
+  "privacyPolicy": {
+    "message": "Privacy Policy",
+    "description": "Privacy policy link text"
   }
 }

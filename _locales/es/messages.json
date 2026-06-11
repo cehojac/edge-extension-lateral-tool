@@ -394,5 +394,9 @@
   "errorCopying": {
     "message": "Error al copiar al portapapeles",
     "description": "Mensaje de error cuando falla la copia"
+  },
+  "privacyPolicy": {
+    "message": "Política de Privacidad",
+    "description": "Texto del enlace a política de privacidad"
   }
 }

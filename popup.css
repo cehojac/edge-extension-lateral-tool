@@ -230,6 +230,26 @@ body {
     gap: 8px;
 }
 
+.popup-footer-secondary {
+    padding: 12px 16px;
+    border-top: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+    display: flex;
+    justify-content: center;
+}
+
+.privacy-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 13px;
+    transition: var(--transition-fast);
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+    color: var(--accent-hover);
+}
+
 button {
     padding: var(--space-sm) var(--space-lg);
     border: 1px solid var(--border-color);

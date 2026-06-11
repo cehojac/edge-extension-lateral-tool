@@ -190,6 +190,10 @@ sidebar-productivity/
 
 This extension is open source and available for personal and commercial use.
 
+## Privacy Policy
+
+This extension is designed with privacy in mind. All data is stored locally on your device and is never transmitted to external servers. For detailed information about data handling, please see the [Privacy Policy](PRIVACY.md).
+
 ## Author
 
 Created and developed by [cehojac](https://github.com/cehojac).
