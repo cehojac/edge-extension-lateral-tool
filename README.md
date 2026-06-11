@@ -198,7 +198,7 @@ Created and developed by [cehojac](https://github.com/cehojac).
 
 If you find this extension useful, consider supporting its development:
 
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets/buttons-orange/bmc-logo.svg)](https://www.buymeacoffee.com/PfYvexH)
+<a href="https://www.buymeacoffee.com/PfYvexH" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Support
 
