@@ -1,0 +1,398 @@
+{
+  "extensionName": {
+    "message": "Productivity Sidebar",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Restores the Edge sidebar toolbar with customizable productivity tools",
+    "description": "Description of the extension"
+  },
+  "openSidebar": {
+    "message": "Open Sidebar",
+    "description": "Button title to open sidebar"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Settings page title"
+  },
+  "tools": {
+    "message": "Tools",
+    "description": "Tools section header"
+  },
+  "appearance": {
+    "message": "Appearance",
+    "description": "Appearance section header"
+  },
+  "theme": {
+    "message": "Theme",
+    "description": "Theme setting label"
+  },
+  "system": {
+    "message": "System",
+    "description": "System theme option"
+  },
+  "light": {
+    "message": "Light",
+    "description": "Light theme option"
+  },
+  "dark": {
+    "message": "Dark",
+    "description": "Dark theme option"
+  },
+  "data": {
+    "message": "Data",
+    "description": "Data section header"
+  },
+  "clearAllData": {
+    "message": "Clear all data",
+    "description": "Button to clear all data"
+  },
+  "save": {
+    "message": "Save",
+    "description": "Save button"
+  },
+  "saved": {
+    "message": "Saved!",
+    "description": "Saved confirmation message"
+  },
+  "confirmClearData": {
+    "message": "Are you sure you want to clear all data? This action cannot be undone.",
+    "description": "Confirmation message for clearing data"
+  },
+  "dataCleared": {
+    "message": "All data has been cleared.",
+    "description": "Message after clearing data"
+  },
+  "errorClearingData": {
+    "message": "Error clearing data.",
+    "description": "Error message when clearing data fails"
+  },
+  "calculator": {
+    "message": "Calculator",
+    "description": "Calculator tool name"
+  },
+  "todoList": {
+    "message": "Todo List",
+    "description": "Todo list tool name"
+  },
+  "translator": {
+    "message": "Translator",
+    "description": "Translator tool name"
+  },
+  "quickNotes": {
+    "message": "Quick Notes",
+    "description": "Quick notes tool name"
+  },
+  "timer": {
+    "message": "Timer",
+    "description": "Timer tool name"
+  },
+  "shortcuts": {
+    "message": "Shortcuts",
+    "description": "Shortcuts tool name"
+  },
+  "newTask": {
+    "message": "New task...",
+    "description": "Placeholder for new task input"
+  },
+  "add": {
+    "message": "Add",
+    "description": "Add button"
+  },
+  "delete": {
+    "message": "Delete",
+    "description": "Delete button title"
+  },
+  "writeNotes": {
+    "message": "Write your notes here...",
+    "description": "Placeholder for notes textarea"
+  },
+  "saving": {
+    "message": "Saving...",
+    "description": "Saving status"
+  },
+  "savedStatus": {
+    "message": "Saved",
+    "description": "Saved status"
+  },
+  "errorSaving": {
+    "message": "Error saving",
+    "description": "Error saving status"
+  },
+  "start": {
+    "message": "Start",
+    "description": "Start button"
+  },
+  "pause": {
+    "message": "Pause",
+    "description": "Pause button"
+  },
+  "reset": {
+    "message": "Reset",
+    "description": "Reset button"
+  },
+  "timeUp": {
+    "message": "Time's up!",
+    "description": "Timer finished message"
+  },
+  "name": {
+    "message": "Name",
+    "description": "Name placeholder"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL placeholder"
+  },
+  "detectLanguage": {
+    "message": "Detect language",
+    "description": "Auto-detect language option"
+  },
+  "english": {
+    "message": "English",
+    "description": "English language"
+  },
+  "spanish": {
+    "message": "Spanish",
+    "description": "Spanish language"
+  },
+  "french": {
+    "message": "French",
+    "description": "French language"
+  },
+  "german": {
+    "message": "German",
+    "description": "German language"
+  },
+  "italian": {
+    "message": "Italian",
+    "description": "Italian language"
+  },
+  "portuguese": {
+    "message": "Portuguese",
+    "description": "Portuguese language"
+  },
+  "russian": {
+    "message": "Russian",
+    "description": "Russian language"
+  },
+  "japanese": {
+    "message": "Japanese",
+    "description": "Japanese language"
+  },
+  "korean": {
+    "message": "Korean",
+    "description": "Korean language"
+  },
+  "chinese": {
+    "message": "Chinese",
+    "description": "Chinese language"
+  },
+  "arabic": {
+    "message": "Arabic",
+    "description": "Arabic language"
+  },
+  "hindi": {
+    "message": "Hindi",
+    "description": "Hindi language"
+  },
+  "dutch": {
+    "message": "Dutch",
+    "description": "Dutch language"
+  },
+  "polish": {
+    "message": "Polish",
+    "description": "Polish language"
+  },
+  "turkish": {
+    "message": "Turkish",
+    "description": "Turkish language"
+  },
+  "vietnamese": {
+    "message": "Vietnamese",
+    "description": "Vietnamese language"
+  },
+  "thai": {
+    "message": "Thai",
+    "description": "Thai language"
+  },
+  "indonesian": {
+    "message": "Indonesian",
+    "description": "Indonesian language"
+  },
+  "swedish": {
+    "message": "Swedish",
+    "description": "Swedish language"
+  },
+  "danish": {
+    "message": "Danish",
+    "description": "Danish language"
+  },
+  "norwegian": {
+    "message": "Norwegian",
+    "description": "Norwegian language"
+  },
+  "finnish": {
+    "message": "Finnish",
+    "description": "Finnish language"
+  },
+  "greek": {
+    "message": "Greek",
+    "description": "Greek language"
+  },
+  "hebrew": {
+    "message": "Hebrew",
+    "description": "Hebrew language"
+  },
+  "ukrainian": {
+    "message": "Ukrainian",
+    "description": "Ukrainian language"
+  },
+  "czech": {
+    "message": "Czech",
+    "description": "Czech language"
+  },
+  "romanian": {
+    "message": "Romanian",
+    "description": "Romanian language"
+  },
+  "hungarian": {
+    "message": "Hungarian",
+    "description": "Hungarian language"
+  },
+  "slovak": {
+    "message": "Slovak",
+    "description": "Slovak language"
+  },
+  "bulgarian": {
+    "message": "Bulgarian",
+    "description": "Bulgarian language"
+  },
+  "croatian": {
+    "message": "Croatian",
+    "description": "Croatian language"
+  },
+  "serbian": {
+    "message": "Serbian",
+    "description": "Serbian language"
+  },
+  "malay": {
+    "message": "Malay",
+    "description": "Malay language"
+  },
+  "bengali": {
+    "message": "Bengali",
+    "description": "Bengali language"
+  },
+  "tamil": {
+    "message": "Tamil",
+    "description": "Tamil language"
+  },
+  "telugu": {
+    "message": "Telugu",
+    "description": "Telugu language"
+  },
+  "marathi": {
+    "message": "Marathi",
+    "description": "Marathi language"
+  },
+  "urdu": {
+    "message": "Urdu",
+    "description": "Urdu language"
+  },
+  "persian": {
+    "message": "Persian",
+    "description": "Persian language"
+  },
+  "swahili": {
+    "message": "Swahili",
+    "description": "Swahili language"
+  },
+  "afrikaans": {
+    "message": "Afrikaans",
+    "description": "Afrikaans language"
+  },
+  "enterTextToTranslate": {
+    "message": "Enter text to translate... (will translate automatically)",
+    "description": "Placeholder for translation input"
+  },
+  "translationWillAppear": {
+    "message": "Translation will appear here",
+    "description": "Placeholder for translation output"
+  },
+  "translate": {
+    "message": "Translate",
+    "description": "Translate button"
+  },
+  "clear": {
+    "message": "Clear",
+    "description": "Clear button"
+  },
+  "translating": {
+    "message": "Translating...",
+    "description": "Translating status"
+  },
+  "translationCompleted": {
+    "message": "Translation completed",
+    "description": "Translation completed status"
+  },
+  "enterTextToTranslateError": {
+    "message": "Please enter text to translate",
+    "description": "Error message when no text to translate"
+  },
+  "translatorApiNotAvailable": {
+    "message": "Translator API is not available in this browser",
+    "description": "Error when translator API not available"
+  },
+  "downloadingModel": {
+    "message": "Downloading translation model...",
+    "description": "Status when downloading model"
+  },
+  "downloadingModelProgress": {
+    "message": "Downloading model: $percentage$%",
+    "description": "Download progress with percentage",
+    "placeholders": {
+      "percentage": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "modelNotAvailable": {
+    "message": "Translation model is not available for this language pair",
+    "description": "Error when model not available"
+  },
+  "errorCheckingAvailability": {
+    "message": "Error checking translator availability",
+    "description": "Error checking availability"
+  },
+  "errorCreatingSession": {
+    "message": "Error creating translation session",
+    "description": "Error creating session"
+  },
+  "errorTranslating": {
+    "message": "Error translating: $error$",
+    "description": "Error translating with message",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "swapLanguages": {
+    "message": "Swap languages",
+    "description": "Swap languages button title"
+  },
+  "copy": {
+    "message": "Copy",
+    "description": "Copy button"
+  },
+  "copied": {
+    "message": "Copied!",
+    "description": "Copied confirmation"
+  },
+  "errorCopying": {
+    "message": "Error copying to clipboard",
+    "description": "Error message when copying fails"
+  }
+}

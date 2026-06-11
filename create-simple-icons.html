@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Iconos Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .icon-container {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .icon-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 15px 30px;
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #106ebe;
+        }
+        .instructions {
+            max-width: 700px;
+            text-align: center;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .success {
+            color: #107c10;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generador de Iconos para Extensión</h1>
+    
+    <div class="instructions">
+        <p>Esta página genera los tres iconos necesarios para la extensión de Edge. Los iconos se descargarán automáticamente a tu carpeta de Descargas.</p>
+        <p><strong>Importante:</strong> Después de descargar los iconos, debes moverlos a la carpeta <code>icons</code> de la extensión.</p>
+    </div>
+    
+    <div class="icon-container">
+        <div class="icon-wrapper">
+            <canvas id="icon16" width="16" height="16"></canvas>
+            <span>16x16</span>
+        </div>
+        <div class="icon-wrapper">
+            <canvas id="icon48" width="48" height="48"></canvas>
+            <span>48x48</span>
+        </div>
+        <div class="icon-wrapper">
+            <canvas id="icon128" width="128" height="128"></canvas>
+            <span>128x128</span>
+        </div>
+    </div>
+    
+    <button id="generate-btn">🎨 Generar y Descargar Iconos</button>
+    
+    <div id="status" class="success"></div>
+    
+    <script>
+        function drawIcon(canvas, size) {
+            const ctx = canvas.getContext('2d');
+            
+            // Fondo azul de Edge
+            ctx.fillStyle = '#0078d4';
+            ctx.fillRect(0, 0, size, size);
+            
+            // Configurar estilo de línea
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = Math.max(2, size / 16);
+            ctx.lineCap = 'round';
+            
+            // Barra lateral vertical
+            ctx.beginPath();
+            ctx.moveTo(size * 0.3, size * 0.2);
+            ctx.lineTo(size * 0.3, size * 0.8);
+            ctx.stroke();
+            
+            // Líneas horizontales representando herramientas
+            const toolY = [0.3, 0.5, 0.7];
+            toolY.forEach(y => {
+                ctx.beginPath();
+                ctx.moveTo(size * 0.4, size * y);
+                ctx.lineTo(size * 0.8, size * y);
+                ctx.stroke();
+            });
+            
+            // Círculo pequeño (engranaje/configuración)
+            ctx.beginPath();
+            ctx.arc(size * 0.15, size * 0.85, size * 0.08, 0, Math.PI * 2);
+            ctx.stroke();
+        }
+        
+        function downloadCanvas(canvas, filename) {
+            return new Promise((resolve) => {
+                const link = document.createElement('a');
+                link.download = filename;
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+                setTimeout(resolve, 500); // Pequeño delay entre descargas
+            });
+        }
+        
+        async function generateAllIcons() {
+            const btn = document.getElementById('generate-btn');
+            const status = document.getElementById('status');
+            
+            btn.disabled = true;
+            btn.textContent = '⏳ Generando...';
+            status.textContent = '';
+            
+            try {
+                // Generar y descargar cada icono
+                const canvas16 = document.getElementById('icon16');
+                drawIcon(canvas16, 16);
+                await downloadCanvas(canvas16, 'icon16.png');
+                
+                const canvas48 = document.getElementById('icon48');
+                drawIcon(canvas48, 48);
+                await downloadCanvas(canvas48, 'icon48.png');
+                
+                const canvas128 = document.getElementById('icon128');
+                drawIcon(canvas128, 128);
+                await downloadCanvas(canvas128, 'icon128.png');
+                
+                status.innerHTML = '✅ ¡Iconos generados y descargados!<br><br>📁 Mueve los archivos a la carpeta <code>icons</code> de la extensión.';
+                btn.textContent = '✓ Completado';
+                
+            } catch (error) {
+                status.textContent = '❌ Error al generar iconos: ' + error.message;
+                btn.textContent = 'Reintentar';
+                btn.disabled = false;
+            }
+        }
+        
+        // Generar vista previa al cargar
+        window.addEventListener('load', () => {
+            drawIcon(document.getElementById('icon16'), 16);
+            drawIcon(document.getElementById('icon48'), 48);
+            drawIcon(document.getElementById('icon128'), 128);
+        });
+        
+        document.getElementById('generate-btn').addEventListener('click', generateAllIcons);
+    </script>
+</body>
+</html>

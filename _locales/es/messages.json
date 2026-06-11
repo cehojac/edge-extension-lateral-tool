@@ -1,0 +1,398 @@
+{
+  "extensionName": {
+    "message": "Barra Lateral de Productividad",
+    "description": "Nombre de la extensión"
+  },
+  "extensionDescription": {
+    "message": "Restaura la barra lateral de herramientas de Edge con herramientas de productividad personalizables",
+    "description": "Descripción de la extensión"
+  },
+  "openSidebar": {
+    "message": "Abrir Barra Lateral",
+    "description": "Título del botón para abrir la barra lateral"
+  },
+  "settings": {
+    "message": "Configuración",
+    "description": "Título de la página de configuración"
+  },
+  "tools": {
+    "message": "Herramientas",
+    "description": "Encabezado de sección de herramientas"
+  },
+  "appearance": {
+    "message": "Apariencia",
+    "description": "Encabezado de sección de apariencia"
+  },
+  "theme": {
+    "message": "Tema",
+    "description": "Etiqueta de configuración de tema"
+  },
+  "system": {
+    "message": "Sistema",
+    "description": "Opción de tema del sistema"
+  },
+  "light": {
+    "message": "Claro",
+    "description": "Opción de tema claro"
+  },
+  "dark": {
+    "message": "Oscuro",
+    "description": "Opción de tema oscuro"
+  },
+  "data": {
+    "message": "Datos",
+    "description": "Encabezado de sección de datos"
+  },
+  "clearAllData": {
+    "message": "Borrar todos los datos",
+    "description": "Botón para borrar todos los datos"
+  },
+  "save": {
+    "message": "Guardar",
+    "description": "Botón de guardar"
+  },
+  "saved": {
+    "message": "¡Guardado!",
+    "description": "Mensaje de confirmación de guardado"
+  },
+  "confirmClearData": {
+    "message": "¿Estás seguro de que quieres borrar todos los datos? Esta acción no se puede deshacer.",
+    "description": "Mensaje de confirmación para borrar datos"
+  },
+  "dataCleared": {
+    "message": "Todos los datos han sido borrados.",
+    "description": "Mensaje después de borrar datos"
+  },
+  "errorClearingData": {
+    "message": "Error al borrar los datos.",
+    "description": "Mensaje de error al borrar datos"
+  },
+  "calculator": {
+    "message": "Calculadora",
+    "description": "Nombre de la herramienta calculadora"
+  },
+  "todoList": {
+    "message": "Lista de Tareas",
+    "description": "Nombre de la herramienta lista de tareas"
+  },
+  "translator": {
+    "message": "Traductor",
+    "description": "Nombre de la herramienta traductor"
+  },
+  "quickNotes": {
+    "message": "Notas Rápidas",
+    "description": "Nombre de la herramienta notas rápidas"
+  },
+  "timer": {
+    "message": "Temporizador",
+    "description": "Nombre de la herramienta temporizador"
+  },
+  "shortcuts": {
+    "message": "Atajos",
+    "description": "Nombre de la herramienta atajos"
+  },
+  "newTask": {
+    "message": "Nueva tarea...",
+    "description": "Placeholder para input de nueva tarea"
+  },
+  "add": {
+    "message": "Agregar",
+    "description": "Botón de agregar"
+  },
+  "delete": {
+    "message": "Eliminar",
+    "description": "Título del botón de eliminar"
+  },
+  "writeNotes": {
+    "message": "Escribe tus notas aquí...",
+    "description": "Placeholder para textarea de notas"
+  },
+  "saving": {
+    "message": "Guardando...",
+    "description": "Estado de guardando"
+  },
+  "savedStatus": {
+    "message": "Guardado",
+    "description": "Estado de guardado"
+  },
+  "errorSaving": {
+    "message": "Error al guardar",
+    "description": "Estado de error al guardar"
+  },
+  "start": {
+    "message": "Iniciar",
+    "description": "Botón de iniciar"
+  },
+  "pause": {
+    "message": "Pausar",
+    "description": "Botón de pausar"
+  },
+  "reset": {
+    "message": "Reiniciar",
+    "description": "Botón de reiniciar"
+  },
+  "timeUp": {
+    "message": "¡Tiempo terminado!",
+    "description": "Mensaje de temporizador terminado"
+  },
+  "name": {
+    "message": "Nombre",
+    "description": "Placeholder de nombre"
+  },
+  "url": {
+    "message": "URL",
+    "description": "Placeholder de URL"
+  },
+  "detectLanguage": {
+    "message": "Detectar idioma",
+    "description": "Opción de detección automática de idioma"
+  },
+  "english": {
+    "message": "Inglés",
+    "description": "Idioma inglés"
+  },
+  "spanish": {
+    "message": "Español",
+    "description": "Idioma español"
+  },
+  "french": {
+    "message": "Francés",
+    "description": "Idioma francés"
+  },
+  "german": {
+    "message": "Alemán",
+    "description": "Idioma alemán"
+  },
+  "italian": {
+    "message": "Italiano",
+    "description": "Idioma italiano"
+  },
+  "portuguese": {
+    "message": "Portugués",
+    "description": "Idioma portugués"
+  },
+  "russian": {
+    "message": "Ruso",
+    "description": "Idioma ruso"
+  },
+  "japanese": {
+    "message": "Japonés",
+    "description": "Idioma japonés"
+  },
+  "korean": {
+    "message": "Coreano",
+    "description": "Idioma coreano"
+  },
+  "chinese": {
+    "message": "Chino",
+    "description": "Idioma chino"
+  },
+  "arabic": {
+    "message": "Árabe",
+    "description": "Idioma árabe"
+  },
+  "hindi": {
+    "message": "Hindi",
+    "description": "Idioma hindi"
+  },
+  "dutch": {
+    "message": "Holandés",
+    "description": "Idioma holandés"
+  },
+  "polish": {
+    "message": "Polaco",
+    "description": "Idioma polaco"
+  },
+  "turkish": {
+    "message": "Turco",
+    "description": "Idioma turco"
+  },
+  "vietnamese": {
+    "message": "Vietnamita",
+    "description": "Idioma vietnamita"
+  },
+  "thai": {
+    "message": "Tailandés",
+    "description": "Idioma tailandés"
+  },
+  "indonesian": {
+    "message": "Indonesio",
+    "description": "Idioma indonesio"
+  },
+  "swedish": {
+    "message": "Sueco",
+    "description": "Idioma sueco"
+  },
+  "danish": {
+    "message": "Danés",
+    "description": "Idioma danés"
+  },
+  "norwegian": {
+    "message": "Noruego",
+    "description": "Idioma noruego"
+  },
+  "finnish": {
+    "message": "Finlandés",
+    "description": "Idioma finlandés"
+  },
+  "greek": {
+    "message": "Griego",
+    "description": "Idioma griego"
+  },
+  "hebrew": {
+    "message": "Hebreo",
+    "description": "Idioma hebreo"
+  },
+  "ukrainian": {
+    "message": "Ucraniano",
+    "description": "Idioma ucraniano"
+  },
+  "czech": {
+    "message": "Checo",
+    "description": "Idioma checo"
+  },
+  "romanian": {
+    "message": "Rumano",
+    "description": "Idioma rumano"
+  },
+  "hungarian": {
+    "message": "Húngaro",
+    "description": "Idioma húngaro"
+  },
+  "slovak": {
+    "message": "Eslovaco",
+    "description": "Idioma eslovaco"
+  },
+  "bulgarian": {
+    "message": "Búlgaro",
+    "description": "Idioma búlgaro"
+  },
+  "croatian": {
+    "message": "Croata",
+    "description": "Idioma croata"
+  },
+  "serbian": {
+    "message": "Serbio",
+    "description": "Idioma serbio"
+  },
+  "malay": {
+    "message": "Malayo",
+    "description": "Idioma malayo"
+  },
+  "bengali": {
+    "message": "Bengalí",
+    "description": "Idioma bengalí"
+  },
+  "tamil": {
+    "message": "Tamil",
+    "description": "Idioma tamil"
+  },
+  "telugu": {
+    "message": "Telugu",
+    "description": "Idioma telugu"
+  },
+  "marathi": {
+    "message": "Marathi",
+    "description": "Idioma marathi"
+  },
+  "urdu": {
+    "message": "Urdu",
+    "description": "Idioma urdu"
+  },
+  "persian": {
+    "message": "Persa",
+    "description": "Idioma persa"
+  },
+  "swahili": {
+    "message": "Swahili",
+    "description": "Idioma swahili"
+  },
+  "afrikaans": {
+    "message": "Afrikaans",
+    "description": "Idioma afrikaans"
+  },
+  "enterTextToTranslate": {
+    "message": "Escribe el texto a traducir... (se traducirá automáticamente)",
+    "description": "Placeholder para input de traducción"
+  },
+  "translationWillAppear": {
+    "message": "La traducción aparecerá aquí",
+    "description": "Placeholder para output de traducción"
+  },
+  "translate": {
+    "message": "Traducir",
+    "description": "Botón de traducir"
+  },
+  "clear": {
+    "message": "Limpiar",
+    "description": "Botón de limpiar"
+  },
+  "translating": {
+    "message": "Traduciendo...",
+    "description": "Estado de traduciendo"
+  },
+  "translationCompleted": {
+    "message": "Traducción completada",
+    "description": "Estado de traducción completada"
+  },
+  "enterTextToTranslateError": {
+    "message": "Por favor, ingresa texto para traducir",
+    "description": "Mensaje de error cuando no hay texto para traducir"
+  },
+  "translatorApiNotAvailable": {
+    "message": "El API de traductor no está disponible en este navegador",
+    "description": "Error cuando el API de traductor no está disponible"
+  },
+  "downloadingModel": {
+    "message": "Descargando modelo de traducción...",
+    "description": "Estado al descargar modelo"
+  },
+  "downloadingModelProgress": {
+    "message": "Descargando modelo: $percentage$%",
+    "description": "Progreso de descarga con porcentaje",
+    "placeholders": {
+      "percentage": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "modelNotAvailable": {
+    "message": "El modelo de traducción no está disponible para este par de idiomas",
+    "description": "Error cuando el modelo no está disponible"
+  },
+  "errorCheckingAvailability": {
+    "message": "Error al verificar disponibilidad del traductor",
+    "description": "Error al verificar disponibilidad"
+  },
+  "errorCreatingSession": {
+    "message": "Error al crear sesión de traducción",
+    "description": "Error al crear sesión"
+  },
+  "errorTranslating": {
+    "message": "Error al traducir: $error$",
+    "description": "Error al traducir con mensaje",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Error de red"
+      }
+    }
+  },
+  "swapLanguages": {
+    "message": "Intercambiar idiomas",
+    "description": "Título del botón de intercambiar idiomas"
+  },
+  "copy": {
+    "message": "Copiar",
+    "description": "Botón de copiar"
+  },
+  "copied": {
+    "message": "¡Copiado!",
+    "description": "Confirmación de copiado"
+  },
+  "errorCopying": {
+    "message": "Error al copiar al portapapeles",
+    "description": "Mensaje de error cuando falla la copia"
+  }
+}

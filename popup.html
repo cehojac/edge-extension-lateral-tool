@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="settings">Settings</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <header class="popup-header">
+            <h1 data-i18n="settings">Settings</h1>
+        </header>
+
+        <div class="popup-content">
+            <section class="config-section">
+                <h2 data-i18n="appearance">Appearance</h2>
+                <div class="config-item">
+                    <label for="theme-select" data-i18n="theme">Theme</label>
+                    <select id="theme-select">
+                        <option value="system" data-i18n="system">System</option>
+                        <option value="light" data-i18n="light">Light</option>
+                        <option value="dark" data-i18n="dark">Dark</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="config-section">
+                <h2 data-i18n="tools">Tools</h2>
+                <div id="tools-config" class="tools-config">
+                    <!-- Tools will be generated dynamically here -->
+                </div>
+            </section>
+
+            <section class="config-section">
+                <h2 data-i18n="data">Data</h2>
+                <div class="config-item">
+                    <button id="clear-data-btn" class="danger-btn" data-i18n="clearAllData">Clear all data</button>
+                </div>
+            </section>
+        </div>
+
+        <footer class="popup-footer">
+            <button id="save-btn" class="primary-btn" data-i18n="save">Save</button>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
